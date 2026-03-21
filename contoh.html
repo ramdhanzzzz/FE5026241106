@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Open Recruitment Staff HMSI 2026/2027</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/css/bootstrap.min.css" />
+  <style>
+    body {
+      background-color: #e4e4e4;
+      font-family: Arial, sans-serif;
+      font-size: 15px;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: bold;
+      color: #ffffff;
+    }
+
+    .header-box {
+      background-color: #1a3c8f;
+      color: white;
+      padding: 24px 30px;
+      border-radius: 8px;
+      margin-bottom: 24px;
+    }
+
+    .header-box p {
+      margin: 0;
+      font-size: 14px;
+      color: #ccd9f5;
+    }
+
+    .section-card {
+      background-color: white;
+      border: 1px solid #c7d8f5;
+      border-radius: 8px;
+      padding: 24px;
+      margin-bottom: 20px;
+    }
+
+    .section-title {
+      font-size: 16px;
+      font-weight: bold;
+      color: #1a3c8f;
+      border-bottom: 2px solid #1a3c8f;
+      padding-bottom: 6px;
+      margin-bottom: 18px;
+    }
+
+    label {
+      font-size: 13px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .form-control {
+      font-size: 14px;
+      border: 1px solid #aac0e8;
+      border-radius: 5px;
+    }
+
+    .form-control:focus {
+      border-color: #1a3c8f;
+      box-shadow: 0 0 0 2px rgba(26, 60, 143, 0.15);
+    }
+
+    .form-check-label {
+      font-size: 14px;
+      font-weight: bold;
+      color: #222;
+    }
+
+    .btn-daftar {
+      background-color: #1a3c8f;
+      color: white;
+      font-size: 15px;
+      font-weight: bold;
+      padding: 10px 36px;
+      border: none;
+      border-radius: 6px;
+    }
+
+    .btn-daftar:hover {
+      background-color: #122e70;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container py-4" style="max-width: 700px;">
+    <div class="header-box">
+      <div class="row align-items-center">
+        <div class="col-9">
+          <h1>Open Recruitment Staff</h1>
+          <h1 style="font-size:20px; margin-top:2px;">HMSI Kabinet Pilar Aksi 2026/2027</h1>
+          <p class="mt-2">Himpunan Mahasiswa Sistem Informasi — ITS</p>
+          <p>#KuatkanPilar, Satukan Aksi Nyata</p>
+        </div>
+        <div class="col-3 text-right">
+          <p style="font-size:12px; color:#ccd9f5;">HMSI ITS</p>
+        </div>
+      </div>
+    </div>
+    <div class="section-card">
+      <div class="section-title">Data Diri</div>
+      <div class="form-group">
+        <label for="nama">Nama Lengkap</label>
+        <!-- Bootstrap Input -->
+        <input type="text" class="form-control" id="nama">
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="form-group">
+            <label for="nrp">NRP</label>
+            <input type="text" class="form-control" id="nrp">
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="form-group">
+            <label for="angkatan">Angkatan</label>
+            <input type="text" class="form-control" id="angkatan">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="form-group">
+            <label for="email">Email Aktif</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="form-group">
+            <label for="wa">Nomor WhatsApp</label>
+            <input type="tel" class="form-control" id="wa">
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Program Studi</label><br>
+        <div class="form-check form-check-inline">
+          <!-- Bootstrap Radio Inline-->
+          <input type="radio" class="form-check-input" name="prodi" id="si">
+          <label class="form-check-label" for="si">Sistem Informasi</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input type="radio" class="form-check-input" name="prodi" id="id">
+          <label class="form-check-label" for="id">Inovasi Digital</label>
+        </div>
+      </div>
+    </div>
+    <div class="section-card">
+      <div class="section-title">Pilihan Departemen</div>
+      <p style="font-size:13px; color:#555; margin-bottom:14px;">
+        Pilih <strong>satu departemen</strong> yang paling sesuai dengan minatmu.
+      </p>
+      <div class="form-group">
+        <div class="row">
+          <div class="col-12">
+            <!-- Bootstrap Radio -->
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="dept" id="d1">
+              <label class="form-check-label" for="d1">Executive Board General Secretary</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="dept" id="d2">
+              <label class="form-check-label" for="d2">Executive Board General Treasure</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="dept" id="d3">
+              <label class="form-check-label" for="d3">Human Resource Development Departement</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="dept" id="d4">
+              <label class="form-check-label" for="d4">Internal Affair Departement</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="dept" id="d5">
+              <label class="form-check-label" for="d5">Manage Departement</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="dept" id="d6">
+              <label class="form-check-label" for="d6">Student Welfare Department</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="dept" id="d7">
+              <label class="form-check-label" for="d7">Research and Technology Application Departement</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="dept" id="d8">
+              <label class="form-check-label" for="d8">Social Development Departement</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="dept" id="d9">
+              <label class="form-check-label" for="d9">Information Media Departement</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="dept" id="d10">
+              <label class="form-check-label" for="d10">External Affair Departement</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="dept" id="d11">
+              <label class="form-check-label" for="d11">Entrepreneurship Departement</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-card">
+      <div class="section-title">Motivasi & Kemampuan</div>
+      <div class="form-group">
+        <label for="motivasi">Mengapa ingin bergabung dengan HMSI?</label>
+        <!-- Bootstrap Textarea -->
+        <textarea class="form-control" id="motivasi" rows="3"></textarea>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="form-group">
+            <label for="skill">Kemampuan / Skill yang Dimiliki</label>
+            <!-- Bootstrap Select -->
+            <select class="form-control" id="skill">
+              <option value="" disabled selected></option>
+              <option>Desain Grafis (Figma, Canva)</option>
+              <option>Pemrograman Web</option>
+              <option>Manajemen Keuangan</option>
+              <option>Public Speaking</option>
+              <option>Penulisan & Konten</option>
+              <option>Riset & Analisis Data</option>
+              <option>Fotografi / Videografi</option>
+              <option>Networking & Komunikasi</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="form-group">
+            <label for="ukm">Pengalaman Organisasi / UKM</label>
+            <!-- Bootstrap Input -->
+            <input type="text" class="form-control" id="ukm">
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Ketersediaan Waktu</label>
+        <!-- Bootstrap Checkbox -->
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" id="weekday" value="">Senin – Jumat (hari kuliah)
+          </label>
+        </div>
+        <!-- Bootstrap Checkbox -->
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" id="weekend" value="">Sabtu – Minggu (akhir pekan)
+          </label>
+        </div>
+        <!-- Bootstrap Checkbox Disabled-->
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" value="" disabled>Hari libur nasional / cuti bersama
+          </label>
+        </div>
+      </div>
+      <div class="form-group">
+        <!-- Bootstrap Range Input -->
+        <label for="komitmen">Seberapa besar komitmenmu? (1 = rendah, 10 = sangat tinggi)</label>
+        <input type="range" class="form-control-range" id="komitmen" min="1" max="10" value="8"
+          oninput="document.getElementById('komitmenVal').textContent = this.value">
+        <small class="note">Nilai saat ini: <strong id="komitmenVal">8</strong></small>
+      </div>
+    </div>
+    <div class="section-card">
+      <div class="section-title">Upload & Persetujuan</div>
+      <div class="form-group">
+        <label for="cv">Upload CV (format ATS Friendly — PDF)</label>
+        <input type="file" class="form-control-file" id="cv" accept=".pdf">
+        <small class="note">Maks. 2 MB. Wajib untuk semua departemen.</small>
+      </div>
+      <div class="form-group">
+        <label for="porto">Upload Portofolio <small class="note">(wajib untuk Information Media)</small></label>
+        <input type="file" class="form-control-file" id="porto" accept=".pdf,.jpg,.png">
+      </div>
+      <div class="form-group">
+        <label>Pernyataan</label><br>
+        <!-- Bootstrap Checkbox Inline -->
+        <div class="form-check form-check-inline">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" id="setuju1">Data saya benar
+          </label>
+        </div>
+        <!-- Bootstrap Checkbox Inline -->
+        <div class="form-check form-check-inline">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" id="setuju2">Setuju syarat & ketentuan
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <!-- Submit Button -->
+    <div class="row">
+      <div class="col-8">
+        <button type="submit" class="btn-daftar">Kirim Pendaftaran</button>
+      </div>
+      <div class="col-4 text-right pt-2">
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
