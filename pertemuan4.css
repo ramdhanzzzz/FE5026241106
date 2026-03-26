@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Segoe UI', sans-serif;
 }
 
@@ -11,15 +10,12 @@ body {
 }
 
 .links {
-    list-style: none;
     display: flex;
     gap: 30px;
-    padding: 0;
-    margin: 0;
 }
 
 
-.links li a {
+.links a {
     text-decoration: none;
     color: #7d89c5;
     font-weight: 500;
@@ -41,7 +37,7 @@ body {
     font-size: x-large;
 }
 
-.buynow-btn {
+.biru-btn {
     background-color: #111b47;
     color: white;
     padding: 4px 40px;
@@ -55,14 +51,6 @@ body {
     right: 0;
     z-index: -1;
     max-width: 75%;
-}
-
-.purchase-btn {
-    background-color: #111b47;
-    color: white;
-    padding: 2px 20px;
-    border: none;
-    border-radius: 2px;
 }
 
 .teks h1 {
