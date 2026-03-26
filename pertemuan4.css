@@ -24,7 +24,6 @@ body {
 
 .row {
     display: flex;
-    align-items: center;
     padding: 20px;
 
 }
@@ -33,7 +32,6 @@ body {
     text-align: center;
     color: #2d3e8c;
     font-weight: 700;
-    margin: 0;
     font-size: x-large;
 }
 
