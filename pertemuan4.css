@@ -43,6 +43,14 @@ body {
     border-radius: 2px;
 }
 
+.biru-btn-buy {
+    background-color: #111b47;
+    color: white;
+    padding: 4px 60px;
+    border: none;
+    border-radius: 2px;
+    font-size: small;}
+
 .bg-img {
     position: absolute;
     top: 0;
