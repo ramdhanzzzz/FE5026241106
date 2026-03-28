@@ -64,12 +64,9 @@ body {
 .learn-btn {
     background-color: transparent;
     color: black;
-    padding: 2px 40px;
+    padding: 2.5px 50px;
     border: 2px solid black;
     border-radius: 2px;
     font-weight: 500;
-}
-
-button {
-    margin-right: 15px;
+    margin-left: 15px;
 }
